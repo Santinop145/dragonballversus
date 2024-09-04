@@ -1,0 +1,33 @@
+* {
+    font-family: monospace;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+div{
+    border: 6px double black;
+    box-shadow: 4px 4px 4px black;
+    background: radial-gradient(white, rgb(233, 233, 233));
+    width: 300px;
+}
+
+img{
+    width: 250px;
+    max-height: 400px;
+    height: auto;
+}
+
+.boton{
+    display: inline;
+}
+
+.apagado{
+    display: none;
+}
